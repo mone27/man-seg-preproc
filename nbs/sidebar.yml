@@ -1,0 +1,6 @@
+website:
+  sidebar:
+    contents:
+      - 00_data_import.ipynb
+      - 01_semantic_segmentation.ipynb
+      - 99_utils.ipynb

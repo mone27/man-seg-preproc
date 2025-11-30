@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "man_seg_preproc"
+  site-url: "https://mone27.github.io/manual-segmentation-preprocessing"
+  description: "Preprocessing steps for manual segmentations for TLS Forest point clouds"
+  repo-branch: main
+  repo-url: "https://github.com/mone27/manual-segmentation-preprocessing"
