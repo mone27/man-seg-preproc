@@ -23,6 +23,7 @@ numpy = "<2" # needed for old version of pytorch
 tensorboard = ">=2.20.0,<3"
 pixi-pycharm = ">=0.0.10,<0.0.11"
 debugpy = ">=1.8.17,<2"
+fastcore = ">=1.8.16,<2"
 
 [pypi-dependencies]
 open3d = ">=0.19.0, <0.20"
