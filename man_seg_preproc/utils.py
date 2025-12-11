@@ -3,12 +3,12 @@
 # %% auto 0
 __all__ = ['run_pdal']
 
-# %% ../nbs/99_utils.ipynb 2
+# %% ../nbs/99_utils.ipynb 3
 from pdal import Pipeline
 import subprocess
 
 
-# %% ../nbs/99_utils.ipynb 3
+# %% ../nbs/99_utils.ipynb 4
 def run_pdal(pipeline: Pipeline, pipe_name="pdal", args=[]):
     with open(f"pipeline_{pipe_name}.json", "w") as f:
         f.write(pipeline.toJSON())
